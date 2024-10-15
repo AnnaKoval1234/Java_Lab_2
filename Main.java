@@ -102,11 +102,11 @@ public class Main
         from_f.add(new Road(e, 2));
 
         a.setRoads(from_a);
-        b.setRoads(from_a);
-        c.setRoads(from_a);
-        d.setRoads(from_a);
-        e.setRoads(from_a);
-        f.setRoads(from_a);
+        b.setRoads(from_b);
+        c.setRoads(from_c);
+        d.setRoads(from_d);
+        e.setRoads(from_e);
+        f.setRoads(from_f);
 
         System.out.println(a);
         System.out.println(b);
@@ -202,11 +202,11 @@ public class Main
     public static void main(String args[])
     {   
         Main m = new Main();
-        m.Task_1(); 
-        m.Task_2();
-        m.Task_3();
-        m.Task_4();
-        m.Task_5();
+        // m.Task_1(); 
+        // m.Task_2();
+        // m.Task_3();
+        // m.Task_4();
+        // m.Task_5();
         m.Task_6();
     }
 }
